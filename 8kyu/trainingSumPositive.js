@@ -16,5 +16,6 @@ function positiveSum(arr) {
 }
 
 // Test Cases
-positiveSum([1,-2,3,4,5]);
-positiveSum([]);
+console.log(positiveSum([1,-2,3,4,5]));
+console.log(positiveSum([]));
+console.log(positiveSum([3,4,-5,2]));
